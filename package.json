@@ -1,0 +1,41 @@
+{
+    "name": "sakai-vue-laravel-inertia",
+    "version": "4.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite --host",
+        "preview": "vite preview",
+        "lint": "eslint --fix . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    },
+    "dependencies": {
+        "@primevue/themes": "^4.0.0",
+        "chart.js": "3.3.2",
+        "primeicons": "^6.0.1",
+        "primevue": "^4.0.0",
+        "vue-router": "^4.4.0"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^1.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@vitejs/plugin-vue": "^5.0.5",
+        "autoprefixer": "^10.4.19",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.0",
+        "@primevue/auto-import-resolver": "^4.0.1",
+        "@rushstack/eslint-patch": "^1.8.0",
+        "@vue/eslint-config-prettier": "^9.0.0",
+        "eslint": "^8.57.0",
+        "eslint-plugin-vue": "^9.23.0",
+        "postcss": "^8.4.31",
+        "prettier": "^3.2.5",
+        "sass": "^1.55.0",
+        "tailwindcss": "^3.2.1",
+        "tailwindcss-primeui": "^0.3.2",
+        "unplugin-vue-components": "^0.27.3",
+        "vite": "^5.0",
+        "vue": "^3.4.0"
+    }
+}
